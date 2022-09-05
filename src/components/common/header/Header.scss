@@ -1,0 +1,60 @@
+.Header {
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 50px;
+  /* max-width: 1400px; */
+  height: 50px;
+  max-height: 50px;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  align-items: center;
+  /* &-navleft{
+          position: relative;
+          display: flex;
+          align-items: center;
+                  }
+        &-navright{
+          position: relative;
+          display: flex;
+         
+        }
+        button[type="button"] span{
+          position: relative;
+          top:50%;
+          transform: translateY(-50%);
+        font-size: 20px;
+        
+      } */
+}
+
+.Header-navleft {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.ant-input {
+  border-radius: 0px;
+}
+.Header-navleft .ant-btn span {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.Header-navright {
+  position: relative;
+  display: flex;
+}
+
+.Header button[type="button"] span {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}

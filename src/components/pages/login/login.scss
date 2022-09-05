@@ -1,0 +1,53 @@
+.contaier {
+  margin: 0 auto;
+  max-width: 300px;
+}
+.login-form {
+  padding-top: 80px;
+  max-width: 300px;
+  animation: at 0.2s linear;
+}
+.ant-btn {
+  border-radius: 9px;
+}
+// .login-form input {
+//   background-color: #1890ff1c !important;
+//   border-radius: 0px;
+// }
+.login-form input {
+  // background-color: rgba(24, 144, 255, 0.1098039216) !important;
+  border-radius: 0px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+h3 {
+  text-align: center;
+}
+.ant-input-affix-wrapper {
+  border-radius: 9px;
+}
+.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+.ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover {
+  background: #fff;
+  border-color: #da484a;
+}
+.login-form input {
+  // background-color: rgba(24, 144, 255, 0.1098039216) !important;
+  border-radius: 0px;
+}
+@keyframes at {
+  from {
+    transform: translateY(-300px);
+  }
+  to {
+    transform: translateY(0);
+    display: none;
+  }
+}

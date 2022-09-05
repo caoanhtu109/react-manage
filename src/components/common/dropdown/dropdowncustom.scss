@@ -1,0 +1,15 @@
+.Header-navright a {
+    font-size: 20px;
+    color: black;
+}
+
+.Header-navright a,
+a::before,
+a::after {
+    font-size: 20px;
+    color: black;
+}
+.ant-dropdown.ant-dropdown-placement-bottomLeft {
+   left: auto !important;
+   right: 20px;
+}

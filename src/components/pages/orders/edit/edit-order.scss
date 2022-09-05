@@ -1,0 +1,8 @@
+.ant-spin.ant-spin-spinning[aria-live="polite"]{
+  position: relative;
+  left: 50%;
+  // top:50%;
+  /* margin: 0 auto; */ 
+  transform: translateX(-50%);
+  // transform: translateY(-50%);
+}
